@@ -1,4 +1,4 @@
-# CricGPT :- Your Virtual Cricket Assistant [Live](https://smart-portfolio-401206.de.r.appspot.com/)  [video](https://youtu.be/FRygu3yEf1M?si=bQ51Dt3RmGfkerq0)
+# CricGPT :- Your Virtual Cricket Assistant [Live](https://smart-portfolio-401206.de.r.appspot.com/) | [video](https://youtu.be/FRygu3yEf1M?si=bQ51Dt3RmGfkerq0)
 <img src="Images/CricGPT.png" >
 Welcome to the CricGPT World! This application is a example of RAG based LLM chatbot where as of now we have provided 15 Indian cricket players data which will get updated every week and we are using GCP vertex AI's chat-bison model as a LLM. Follow the steps below to get started.
 
