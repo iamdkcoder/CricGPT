@@ -10,8 +10,8 @@ from langchain.vectorstores.neo4j_vector import Neo4jVector
 from langchain.embeddings import VertexAIEmbeddings
 from langchain.memory import ConversationBufferWindowMemory
 
-# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'smart-portfolio-401206-5657d2c792f3.json'
-GOOGLE_APPLICATION_CREDENTIALS = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'smart-portfolio-401206-5657d2c792f3.json'
+# GOOGLE_APPLICATION_CREDENTIALS = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')
 vertexai.init(project="smart-portfolio-401206", location="us-central1")
 app = FastAPI()
 template = """
